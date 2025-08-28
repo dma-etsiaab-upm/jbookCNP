@@ -62,5 +62,5 @@ sphinx:
 launch_buttons:
   binderhub_url: "https://mybinder.org"
   notebook_interface: "jupyterlab"
-  repository_url: "https://github.com/carlos/bookCNP"
-  branch: main
+  repository_url: "https://github.com/dma-etsiaab-upm/bookCNP"
+  branch: master
