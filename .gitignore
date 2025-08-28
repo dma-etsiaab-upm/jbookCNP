@@ -1,0 +1,15 @@
+# Carpetas generadas automáticamente
+_build/
+.ipynb_checkpoints/
+__pycache__/
+otros/
+
+# Archivos temporales de sistema
+*.DS_Store
+*.swp
+
+# Entornos locales
+.env/
+.venv/
+*.egg-info/
+

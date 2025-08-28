@@ -1,0 +1,37 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: content/introCNP
+options:
+    numbered: True
+chapters:
+- file: content/01.00_Tema1Intro
+  sections:
+  - file: content/01.00_ManejoBasicoJupyter
+  - file: content/01.01_TiposBasicos
+  - file: content/01.02_Bifurcacion
+  - file: content/01.03_Cadenas
+  - file: content/01.04_Iteracion
+  - file: content/01.05_Estrategias
+- file: content/02.00_Tema2Intro
+  sections:
+  - file: content/02.01_Funciones
+  - file: content/02.02_Precision
+  - file: content/02.03_BusquedaExhaustiva
+  - file: content/02.04_BusquedaBinaria
+- file: content/03.00_Tema3Intro
+  sections:
+  - file: content/03.01_Listas
+  - file: content/03.02_ListasTuplasCadenas
+  - file: content/03.03_Modulos
+  - file: content/03.04_Ficheros
+  - file: content/03.05_Diccionarios
+- file: content/04.00_Tema4Intro
+  sections:
+  - file: content/04.01_SolucionAproximadaEcuaciones
+  - file: content/04.02_IntegracionAproximada
+  - file: content/04.03_MetodoEuler
+  - file: content/04.04_Sucesiones_recurrentes
+- file: content/00.01_InstalacionJupyter
+- file: content/Bibliografia
