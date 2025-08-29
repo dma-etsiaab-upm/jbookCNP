@@ -34,4 +34,5 @@ chapters:
   - file: content/04.03_MetodoEuler
   - file: content/04.04_Sucesiones_recurrentes
 - file: content/00.01_InstalacionJupyter
+- file: content/00.01_ExtraHideRemove
 - file: content/Bibliografia

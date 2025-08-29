@@ -7,9 +7,18 @@ otros/
 # Archivos temporales de sistema
 *.DS_Store
 *.swp
+*.log
+*.tmp
+
+# Archivos de traducciones de Sphinx
+*.po
+*.mo
 
 # Entornos locales
 .env/
 .venv/
 *.egg-info/
 
+# Archivos de jupyter y de usuario
+jlog.txt
+*.bak

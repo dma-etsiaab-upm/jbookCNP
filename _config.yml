@@ -1,53 +1,28 @@
-# Book settings
-# Learn more at https://jupyterbook.org/customize/config.html
-
 title: Cálculo Numérico y Programación
 author: Departamento de Matemática Aplicada
 
 only_build_toc_files: true
 
-# Force re-execution of notebooks on each build.
-# See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: force
   timeout: 1000
   allow_errors: true
 
-# Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
     targetname: book.tex
 
-# Add a bibtex file so that we can create citations
-#bibtex_bibfiles:
-#  - references.bib
-
-# Information about where the book exists on the web
-#repository:
-#  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
-#  path_to_book: docs  # Optional path to your book, relative to the repository root
-#  branch: master  # Which branch of the repository should be used when creating links (optional)
-  
 parse:
   myst_enable_extensions:
-    # don't forget to list any other extensions you want enabled,
-    # including those that are enabled by default!
     - html_image
     - dollarmath
     - amsmath
     - colon_fence
 
-# Add GitHub buttons to your book
-# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  use_issues_button: false
-  use_repository_button: false
   favicon: images/EscUpm.jpg
   logo: images/LOGOTIPOcolorPNG.png
-  logo_options:
-    width: 120px
 
-# Add a bibtex file so that we can create citations
 bibtex_bibfiles:
   - ./content/cnpBibtex.bib
 
@@ -59,8 +34,13 @@ sphinx:
   extra_extensions:
     - sphinx_proof
 
+repository:
+  url: "https://github.com/dma-etsiaab-upm/jbookCNP"
+  branch: master
+  path_to_book: ""
+
 launch_buttons:
   binderhub_url: "https://mybinder.org"
-  notebook_interface: "jupyterlab"
-  repository_url: "https://github.com/dma-etsiaab-upm/bookCNP"
-  branch: master
+  notebook_interface: "classic"
+  colab_url: "https://colab.research.google.com"
+
